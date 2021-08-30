@@ -19,7 +19,9 @@ matrix = [[0, 1, 2, 3, 4],
 
 Your task is to recreate this matrix by using nested listed comprehensions. Recall that you can create one of the rows of the matrix with a single list comprehension. To create the list of lists, you simply have to supply the list comprehension as the **output expression** of the overall list comprehension:
 
-`[`\[*output expression*\] `for` *iterator variable* `in` *iterable*`]`
+```python
+[[output expression] for iterator variable in iterable]
+```
 
 Note that here, the **output expression** is itself a list comprehension.
 
